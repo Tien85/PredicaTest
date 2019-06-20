@@ -66,11 +66,11 @@ namespace GoogleSearch1
             testRunner.CollectScenarioErrors();
         }
         
-        [TechTalk.SpecRun.ScenarioAttribute("search Spec Flow in Google search bar", new string[] {
+        [TechTalk.SpecRun.ScenarioAttribute("search Predica in Google search bar", new string[] {
                 "mytag"}, SourceLine=4)]
-        public virtual void SearchSpecFlowInGoogleSearchBar()
+        public virtual void SearchPredicaInGoogleSearchBar()
         {
-            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("search Spec Flow in Google search bar", null, new string[] {
+            TechTalk.SpecFlow.ScenarioInfo scenarioInfo = new TechTalk.SpecFlow.ScenarioInfo("search Predica in Google search bar", null, new string[] {
                         "mytag"});
 #line 5
 this.ScenarioInitialize(scenarioInfo);
@@ -82,7 +82,7 @@ testRunner.And("I have entered spec flow into google search bar", ((string)(null
 #line 8
 testRunner.When("I press search button", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "When ");
 #line 9
-testRunner.Then("the result should be a new pages with results for spec flow", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
+testRunner.Then("the result should be a new pages with results for predica", ((string)(null)), ((TechTalk.SpecFlow.Table)(null)), "Then ");
 #line hidden
             this.ScenarioCleanup();
         }
